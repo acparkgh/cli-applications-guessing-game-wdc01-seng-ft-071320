@@ -15,7 +15,7 @@ end
 def run_guessing_game
   
   user_input = ""
-  random_number = random_number
+  number = random_number
   p random_number
   prompt
   capture
