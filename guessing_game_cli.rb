@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def random_number
-  rand(6) + 1
+  rand(1) + 1
 end
 
 def prompt
