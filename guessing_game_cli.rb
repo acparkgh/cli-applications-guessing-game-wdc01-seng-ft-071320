@@ -1,8 +1,5 @@
 # Code your solution here!
 
-def random_number
-  rand(1) + 1
-end
 
 def prompt
   puts "Guess a number between 1 and 6"
@@ -15,7 +12,7 @@ end
 def run_guessing_game
   
   
-  number = random_number
+  random_number = rand(6) + 1
   p number
   prompt
   capture
