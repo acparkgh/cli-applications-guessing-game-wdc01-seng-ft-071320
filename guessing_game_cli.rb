@@ -27,5 +27,5 @@ def run_guessing_game
     else
       puts "Sorry!, The computer guessed #{random_number}."
     end
-endputs "Guess a number between 1 and 6"
+end
 end
