@@ -1,11 +1,6 @@
 # Code your solution here!
 
 
-
-def capture
-
-end
-
 def run_guessing_game
   
   
@@ -14,13 +9,9 @@ def run_guessing_game
   user_guess = gets.chomp
   
   
-  p number
-  prompt
-  capture
-  
-    if user_input.to_i == number
+    if user_guess.to_i == user_guess
       puts "You guessed the correct number!"
-    elsif user_input == "exit"
+    elsif user_guess == "exit"
       puts "Goodbye!"
     else
       puts "Sorry!, The computer guessed #{random_number}."
