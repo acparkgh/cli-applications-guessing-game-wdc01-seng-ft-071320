@@ -20,7 +20,7 @@ def run_guessing_game
   prompt
   capture
   
-    if user_input == number
+    if user_input.to_i == number
       puts "You guessed the correct number!"
     elsif user_input == "exit"
       puts "Goodbye!"
